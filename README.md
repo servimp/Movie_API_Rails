@@ -1,6 +1,6 @@
 # Movies API
 
-This is a simple RESTful API for managing movies and their associated genres.
+RESTful API for managing movies and their associated genres.
 
 ## API Endpoints
 
@@ -26,16 +26,8 @@ The API has been tested using RSpec. All tests are located in the `/spec` direct
 
 ## ERD Diagram
 
-+---------+          +-------------------+         +-----------+  
-|  Genre  |          |       Movie       |         |   Score   |  
-+---------+          +-------------------+         +-----------+  
-| id      |◇--------| id                |         | id        |  
-| name    |          | name              |---------| value     |  
-+---------+          | preview_video_url |◇-------| movie_id  |  
-                     | runtime           |         | user_id   |◇-----| id |  
-                     | synopsis          |         +-----------+  
-                     | avg_score         |  
-                     +-------------------+  
+![alt text](https://github.com/servimp/Movie_API_Rails/blob/main/diagram.png?raw=true)
+
 ## Running the Application
 
 To run the application locally, follow these steps:
