@@ -49,3 +49,11 @@ rails db:create db:migrate
 rails s
 
 5. The API is now running on `http://localhost:3000`.
+
+## Testing
+
+To test the APP
+
+1. `rails db:seed`
+
+2. `rspec spec/requests/movies_spec.rb`
