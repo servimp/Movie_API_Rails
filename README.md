@@ -2,6 +2,9 @@
 
 RESTful API for managing movies and their associated genres.
 
+Note:
+Database used is POSTGRES, check config/database.yml for configuration 
+
 ## API Endpoints
 
 ### Movies
@@ -34,19 +37,19 @@ To run the application locally, follow these steps:
 
 1. Clone the repository:
 
-git clone https://github.com/servimp/Movie_API_Rails.git
+`git clone https://github.com/servimp/Movie_API_Rails.git`
 
 2. Install the dependencies:
 
-bundle install
+`bundle install`
 
 3. Set up the database:
 
-rails db:create db:migrate
+`rails db:create db:migrate`
 
 4. Start the server:
 
-rails s
+`rails s`
 
 5. The API is now running on `http://localhost:3000`.
 
