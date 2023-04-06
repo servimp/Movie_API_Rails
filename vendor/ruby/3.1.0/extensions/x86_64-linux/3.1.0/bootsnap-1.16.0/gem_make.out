@@ -1,0 +1,15 @@
+current directory: /home/luisrueda/Documents/projects/Creek_Rails_Movie_API/movie_metadata_api/vendor/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+/usr/local/rvm/rubies/ruby-3.1.2/bin/ruby -I /usr/local/rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20230405-189855-gakl35.rb extconf.rb
+creating Makefile
+
+current directory: /home/luisrueda/Documents/projects/Creek_Rails_Movie_API/movie_metadata_api/vendor/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /home/luisrueda/Documents/projects/Creek_Rails_Movie_API/movie_metadata_api/vendor/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/luisrueda/Documents/projects/Creek_Rails_Movie_API/movie_metadata_api/vendor/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20230405-189855-5m762d/bootsnap
